@@ -1,0 +1,5 @@
+Week06 - Project จากอาจารย์
+
+Lesson 1: Arrays, Objects, and Functions
+
+- ทบทวนเรื่อง Array, Objects และ Fcuntion ทังการจัดการกับข้อมูล การลบ เพิ่ม แก้ไข และอื่นๆ
