@@ -1,0 +1,27 @@
+Week08 - Pokefind
+
+พอดีผมไปเจอ API ตัวนึงที่ชื่อว่า pokeapi (https://pokeapi.co) เป็น API ที่ให้ข้อมูลเกี่ยวกับโปเกมอนต่างๆ
+ผมเลยเอามาทำเป็นโปรเจก CLI เล็กๆสำหรับค้นหาข้อมูลของโปเกมอนขึ่้นมา
+
+- โดยโปรเจกนี้จะใช้ node-fetch ในการดึงข้อมูลจาก pokeapi
+- โดยจะรับ  input เป็นชื่อโปเกมอน จาก process argument
+- โดยโปรเจกนี้ผมจะใช้ bun ในการรันแทนนะครับ
+
+ตัวอย่างการรัน
+```
+❯ bun pokefind pikachu
+
+Pokemon:  PIKACHU
+ID: 25
+Type(s): electric
+Abilities: static, lightning-rod
+Stats:
+  hp: 35
+  attack: 55
+  defense: 40
+  special-attack: 50
+  special-defense: 50
+  speed: 90
+
+Sprite: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png
+```
