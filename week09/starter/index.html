@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quote Manager</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Quote Manager</h1>
+    <section id="quote-list">
+      <!-- Quotes will be rendered here -->
+    </section>
+
+    <hr />
+
+    <h2>Add / Edit Quote</h2>
+    <form id="quoteForm">
+      <input type="hidden" id="quoteId" />
+      <input type="text" id="content" placeholder="Enter quote content" required />
+      <input type="text" id="author" placeholder="Enter author" required />
+      <button type="submit">Save Quote</button>
+    </form>
+
+    <hr />
+    <button id="randomBtn">Show Random Quote</button>
+    <div id="randomQuoteDisplay"></div>
+
+    <script src="ui.js" type="module"></script>
+  </body>
+</html>

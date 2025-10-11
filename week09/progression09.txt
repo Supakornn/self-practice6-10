@@ -1,0 +1,4 @@
+Week09 - Quote Manager
+
+- การบ้าน Quote Manager
+- ได้ทบทวนเรื่อง Dom, Event และอื่นๆ
